@@ -1,0 +1,5 @@
+-- Reiniciar la secuencia al valor 1 del ideintifcador de aportes
+ALTER SEQUENCE aportes_id_aporte_seq RESTART WITH 1;
+
+-- Reiniciar la secuencia al valor 1 del identificador de historial de aportes
+ALTER SEQUENCE historial_aportes_id_aporte_seq RESTART WITH 1;
